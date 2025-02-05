@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Here</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            color: white;
+            background: url('https://i.imgur.com/RpTMrw5.png') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .player {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .player button {
+            height: 80px;
+            width: 180px;
+            border: none;
+            border-radius: 25px;
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+            cursor: pointer;
+            box-shadow: 3px 3px 10px rgba(255, 0, 0, 0.8);
+        }
+        .player button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <button id="enterBtn">ENTER</button>
+    </div>
+
+    <script>
+        document.getElementById('enterBtn').addEventListener('click', () => {
+            window.location.href = "https://poawooptugroo.com/4/8896383";
+            window.open('https://poawooptugroo.com/4/8896383');
+        });
+
+        // Auto redirect after 15 seconds
+        setTimeout(() => {
+            window.location.href = "https://www.vivamix.top/";
+        }, 15000);
+    </script>
+</body>
+</html>
