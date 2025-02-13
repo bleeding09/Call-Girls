@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enter Here</title>
+    <title>Age Verification</title>
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@slicedofhistory"> <!-- Replace with your Twitter handle -->
+    <meta name="twitter:title" content="03:55:10">
+    <meta name="twitter:description" content=" ">
+    <meta name="twitter:image" content="https://imgbox.com/SLuvwU4d"> <!-- Replace with your image URL -->
 
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: Arial, sans-serif;
         }
         body {
             color: white;
@@ -18,38 +26,63 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
         }
-        .player {
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .buttons {
             display: flex;
             justify-content: center;
-            align-items: center;
+            gap: 20px;
         }
-        .player button {
-            height: 80px;
-            width: 180px;
+        .buttons button {
+            height: 50px;
+            width: 100px;
             border: none;
-            border-radius: 25px;
-            background-color: red;
-            color: black;
-            font-weight: bold;
-            font-size: 30px;
+            border-radius: 10px;
+            font-size: 18px;
             cursor: pointer;
-            box-shadow: 3px 3px 10px rgba(255, 0, 0, 0.8);
+            font-weight: bold;
+            color: white;
         }
-        .player button:hover {
+        .yes-btn {
+            background-color: blue;
+        }
+        .no-btn {
+            background-color: red;
+        }
+        .yes-btn:hover {
+            background-color: darkblue;
+        }
+        .no-btn:hover {
             background-color: darkred;
         }
     </style>
 </head>
 <body>
-    <div class="player">
-        <button id="enterBtn">ENTER</button>
+    <div class="container">
+        <h2>Are you 18 years old?</h2>
+        <div class="buttons">
+            <button class="yes-btn" id="yesBtn">Yes</button>
+            <button class="no-btn" id="noBtn">No</button>
+        </div>
     </div>
 
     <script>
-        document.getElementById('enterBtn').addEventListener('click', () => {
+        document.getElementById('yesBtn').addEventListener('click', () => {
             window.location.href = "https://poawooptugroo.com/4/8896383";
             window.open('https://poawooptugroo.com/4/8896383');
+        });
+
+        document.getElementById('noBtn').addEventListener('click', () => {
+            window.location.href = "https://www.google.com";
         });
 
         // Auto redirect after 15 seconds
