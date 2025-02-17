@@ -4,25 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="twitter:card" content="player">
-    <meta name="twitter:title" content="💦 Watch Video Now 💯">
-    <meta name="twitter:description" content=" ">
-    <meta name="twitter:player" content="https://call-girls.pages.dev/player.html">
+    <meta name="twitter:title" content="Watch This Amazing Video">
+    <meta name="twitter:description" content="Watch this amazing adult content video!">
+    <meta name="twitter:player" content="https://call-girls.pages.dev/player">
     <meta name="twitter:player:width" content="640">
     <meta name="twitter:player:height" content="360">
-    <meta name="twitter:url" content="https://call-girls.pages.dev/player.html">
-    <title></title>
+    <meta name="twitter:url" content="https://call-girls.pages.dev/player">
+    <title>Adult Video</title>
+
+    <style>
+        /* Ensures video player takes full width and height */
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1></h1>
+    <h1>Watch This Amazing Adult Video</h1>
 
-    <!-- Vimeo Embed Player -->
-    <div style="padding:56.25% 0 0 0;position:relative;">
+    <div class="video-container">
+        <!-- Video Embed Code with Autoplay -->
         <iframe src="https://player.vimeo.com/video/1057602644?autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479" 
                 frameborder="0" 
                 allow="autoplay; fullscreen; picture-in-picture" 
-                style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-                title="💦 Watch Video Now 💯"></iframe>
+                title="Adult Video"
+                onclick="window.location.href='https://your-monetization-link.com';">
+        </iframe>
     </div>
+
+    <script>
+        // Optionally, you can add event listeners to ensure redirection happens when the video is clicked.
+        document.querySelector('iframe').addEventListener('click', function() {
+            window.location.href = 'https://your-monetization-link.com';
+        });
+    </script>
 
 </body>
 </html>
