@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NSFW Video</title>
-    <style>
-        body { margin: 0; overflow: hidden; }
-        video { width: 100vw; height: 100vh; object-fit: cover; }
-    </style>
 </head>
 <body>
 
-    <video id="nsfwVideo" autoplay muted playsinline controls>
-        <source src="https://drive.google.com/file/d/1H8LbzUXMF9SvCfH4BdwCH88is0CoROdH/preview" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <!-- Streamable Video Embed -->
+    <div style="position:relative; width:100%; height:0px; padding-bottom:140.000%">
+        <iframe allow="fullscreen;autoplay" allowfullscreen height="100%" 
+                src="https://streamable.com/e/u2jcki?autoplay=1" width="100%" 
+                style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe>
+    </div>
 
     <script>
-        document.getElementById("nsfwVideo").addEventListener("click", function() {
-            window.location.href = "https://theeghumoaps.com/4/8896383"; // Replace with your monetized link
+        document.querySelector("iframe").addEventListener("click", function() {
+            window.location.href = "https://theeghumoaps.com/4/8938111"; // Replace with your monetized link
         });
     </script>
 
